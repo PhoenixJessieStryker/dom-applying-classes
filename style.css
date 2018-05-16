@@ -1,3 +1,4 @@
+
 html, body {
   height: 100%;
 }
@@ -20,7 +21,12 @@ div {
 div.blue {
   background-color: blue;
 }
-
+div.green {
+  background-color: green;
+}
+div.red {
+  background-color:red;
+}
 .invisible {
   display: none;
 }
@@ -29,5 +35,5 @@ div.blue {
   display: block;
   border: 3px black dashed;
   border-radius: 0;
-  background-color: white;
+  background-color: rgb(239, 241, 81);
 }
